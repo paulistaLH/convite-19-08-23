@@ -1,0 +1,48 @@
+html {
+    background-image: url(imgs/fundo.jpg);
+}
+
+body, button{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1{
+    font-size: 5vw;
+}
+
+p, button{
+    font-size: 2vw;
+}
+
+button{
+    border-radius: 5px;
+    padding: 0.5vw;
+}
+
+button:hover{
+    background-color: rgb(184, 183, 183);
+}
+
+button:active{
+    background-color: rgb(121, 121, 121);
+}
+
+
+#face_convite{
+    background-color: white;
+    margin: 6vw;
+    padding: 2vw;
+    border-radius: 5px;
+    border: 0.75vw solid rgb(70, 70, 70);
+    position: absolute;
+}
+
+.ocultar {
+    opacity: 0;
+}
+
+.revelar{
+  opacity: 1;
+  transition: opacity 1s ease 5s;
+}
